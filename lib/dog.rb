@@ -12,7 +12,8 @@ attr_accessor :name
   binding.pry
 
   def self.all
-    @@all
+    @@all.each do |dog_name|
+      puts dog_name.name
   end
 
   def self.print_all
