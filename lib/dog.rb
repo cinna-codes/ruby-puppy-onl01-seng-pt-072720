@@ -9,7 +9,7 @@ attr_accessor :name
     @name = name
     @@all << self
   end
-  binding.pry
+
 
   def self.all
     @@all
