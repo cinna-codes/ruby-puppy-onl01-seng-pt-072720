@@ -14,14 +14,14 @@ attr_accessor :name
     @@all
   end
 
+  def self.clear_all
+    @@all.clear
+  end
+
   def self.print_all
     @@all.each do |pup|
       puts "#{pup}"
     end
-  end
-
-  def self.clear_all
-    @@all.clear
   end
 
 end
