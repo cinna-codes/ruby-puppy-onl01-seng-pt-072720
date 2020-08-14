@@ -1,5 +1,5 @@
 # Add your code here
-
+require 'pry'
 class Dog
 
 attr_accessor :name
@@ -9,6 +9,7 @@ attr_accessor :name
     @name = name
     @@all << self
   end
+  binding.pry
 
   def self.all
     @@all
