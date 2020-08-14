@@ -19,8 +19,9 @@ attr_accessor :name
   end
 
   def self.print_all
-    @@all.each do |pup|
-      puts "#{pup}"
+    # @@all.each do |pup|
+    #   puts "#{pup}"
+    puts @@all
     end
   end
 
