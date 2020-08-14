@@ -14,6 +14,7 @@ attr_accessor :name
   def self.all
     @@all.each do |dog_name|
       puts dog_name.name
+    end
   end
 
   def self.print_all
