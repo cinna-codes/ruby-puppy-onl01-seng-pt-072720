@@ -20,7 +20,7 @@ attr_accessor :name
     end
   end
 
-  def clear_all
+  def self.clear_all
     @@all.clear
   end
 
