@@ -21,7 +21,7 @@ attr_accessor :name
   end
 
   def clear_all
-    
+
   end
 
 end
